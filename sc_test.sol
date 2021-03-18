@@ -2,8 +2,10 @@ pragma solidity ^0.4.11;
 
 contract Example005 {
   function operation() returns (uint result) {
-    result = sum(11,5);
-    return result;
+    result1 = sum(11,5);
+    result2 = minus(11,5);
+    result3 = multiple(11,5);
+    result4 = divide(11,5);
   }
 
   function sum(uint a, uint b) returns (uint) {
